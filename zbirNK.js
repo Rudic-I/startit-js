@@ -11,7 +11,7 @@ function zbirNK(n, k){
 	return zbir;
 	}
 	else{
-		return undefined;
+		return ("Uneti dva cela broja, pri cemu prvi broj mora biti manji od drugog");
 	}
 }
 var rezultat1 = zbirNK(-1, 3);
