@@ -15,7 +15,6 @@ function ukupanTrosak(niz){
 			trosak += niz[i]*1.08;
 		}
   	}
-	console.log("Ukupan trosak je " + Number(trosak.toFixed(2)) + " dinara.");
+	console.log("Ukupan trosak je " + trosak.toFixed(2) + " dinara.");
 }
-
 ukupanTrosak(cene);
